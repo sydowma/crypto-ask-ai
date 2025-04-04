@@ -1,0 +1,1 @@
+scrapy crawl all_links_spider -o links.json
