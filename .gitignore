@@ -176,3 +176,5 @@ cython_debug/
 .DS_Store
 
 link_crawler/links.json
+
+link_crawler/site_map_links.json

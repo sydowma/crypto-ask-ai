@@ -90,4 +90,4 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
-DOWNLOAD_DELAY = 0.001  # 每秒最多请求一次
+DOWNLOAD_DELAY = 0.3  # 每秒最多请求一次
