@@ -17,6 +17,13 @@ It crawls specified sitemaps, processes and cleans the text content, indexes it 
     *   OpenAI API (models like `gpt-4o-mini`)
 *   **Retrieval-Only Mode:** Can be used to just view the most relevant document snippets without LLM generation.
 
+## TODO:
+
+- [x] OKX website
+- [ ] Binance website
+- [ ] Bybit website
+- [ ] Coinbase website
+
 ## Project Structure
 
 ```
