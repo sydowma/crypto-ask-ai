@@ -39,8 +39,8 @@ It crawls specified sitemaps, processes and cleans the text content, indexes it 
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/sydowma/crypto-ask-ai
+    cd crypto-ask-ai
     ```
 
 2.  **Create a Virtual Environment (Recommended):**
