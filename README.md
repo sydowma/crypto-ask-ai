@@ -1,5 +1,7 @@
 # Crypto Exchange Website RAG Query System
 
+## Crypto Exchange Knowledge Base
+
 This project implements a Retrieval-Augmented Generation (RAG) system that allows querying content scraped from the OKX website (specifically `www.okx.com`) using natural language.
 
 It crawls specified sitemaps, processes and cleans the text content, indexes it into a local vector database (ChromaDB), and provides a command-line interface to query the data. The query script can retrieve relevant document snippets and optionally use an LLM (Ollama or OpenAI) to generate a synthesized answer based on the retrieved context.
