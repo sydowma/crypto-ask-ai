@@ -178,3 +178,7 @@ cython_debug/
 link_crawler/links.json
 
 link_crawler/site_map_links.json
+
+site_map_links.json
+
+chroma_db/
