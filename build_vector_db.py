@@ -8,7 +8,7 @@ import hashlib
 JSON_FILE_PATH = "site_map_links.json"  # Your input JSON file from the crawler
 VECTOR_DB_PATH = "./chroma_db"  # Directory to store the vector database
 COLLECTION_NAME = "okx_content"
-MODEL_NAME = 'all-mpnet-base-v2' # A good starting point for sentence embeddings
+MODEL_NAME = 'intfloat/multilingual-e5-large-instruct' # A good starting point for sentence embeddings
 
 # Function to generate a consistent ID from URL
 def generate_doc_id(url):

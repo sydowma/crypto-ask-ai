@@ -13,13 +13,13 @@ load_dotenv()
 # --- Configuration ---
 VECTOR_DB_PATH = "./chroma_db"
 COLLECTION_NAME = "okx_content"
-EMBEDDING_MODEL_NAME = 'all-mpnet-base-v2' # Embedding model
+EMBEDDING_MODEL_NAME = 'intfloat/multilingual-e5-large-instruct' # Embedding model
 N_RESULTS = 5 # Number of relevant documents to retrieve
 
 # --- LLM Configuration ---
 # Ollama settings
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434") # Default Ollama API URL
-DEFAULT_OLLAMA_MODEL = "gemma3:27b" # Or your preferred Ollama model
+DEFAULT_OLLAMA_MODEL = "qwq" # Or your preferred Ollama model
 # OpenAI settings
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini" # Or your preferred OpenAI model
