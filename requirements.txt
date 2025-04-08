@@ -4,5 +4,6 @@ tqdm # for progress bars
 openai
 requests
 python-dotenv
+streamlit
 # Add torch if sentence-transformers doesn't install it automatically
 # torch 
